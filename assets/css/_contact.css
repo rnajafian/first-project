@@ -1,0 +1,41 @@
+.container-fluid-custom{
+    background-color: #000;
+    color: #efefef;
+    height: 51px;
+}
+.container-fluid-custom .contact i{
+    color: rgb(129, 124, 124);
+    vertical-align: -18px;
+    font-size: 17px;
+    margin-right: 15px;
+}
+.container-fluid-custom .contact span{
+    color:#efefef;
+    font-size: 11px;
+    padding:5px;
+    vertical-align: 1px;
+}
+.container-fluid-custom .social-media{
+    direction: ltr;
+} 
+.container-fluid-custom .social-media a i{
+    color: #efefef;
+    padding: 18px 15px;
+    transition: all 50ms;
+    vertical-align: -14px;
+}
+.container-fluid-custom .social-media a i:hover{
+    color: #e93342;
+}
+
+@media  only screen and (max-width:750px) {
+    .hidden{
+        display: none;
+    }
+}
+@media  only screen and (max-width:350px) {
+    .hidden-xxs{
+        display: none;
+    }
+}
+

@@ -1,0 +1,80 @@
+.section-title.faq-title span::after{
+    right:95px;
+}
+.faq-section-wrapper{
+    margin: 150px 0;
+}
+.faq-bg-section{
+    background-image: url(../img/dirttty.jpg);
+    /* height: auto ; */
+    background-size: 100% 100%;
+    width: 100%;
+}
+.faq-section-wrapper .right-side-faq{
+    box-shadow: 3px 5px 8px 0px #e4e4e4;
+    /* height: auto; */
+    padding:37px;
+    background-color: #ffffff75;
+    margin-top: 7%;
+    border-radius: 10px;
+}
+.faq-section-wrapper .right-side-faq h6 i {
+    font-size: 22px;
+    margin: 20px 0 10px 10px;
+    vertical-align: -3px;
+    font-weight: bolder;
+    color:  #e61021db;
+}
+.faq-section-wrapper .right-side-faq p{
+    font-size: 13px;
+    margin-top: 4px 31px 0 0;
+}
+.faq-section-wrapper .left-side-faq .tabs{
+     overflow: hidden;
+     background-color: #e4cece91;
+     border-radius: 10px;
+     padding: 25px;
+     margin-top:25%;
+}
+.faq-section-wrapper .left-side-faq .tab{
+    overflow: hidden;
+}
+.faq-section-wrapper .left-side-faq .content-tab{
+    font-size: 13px;
+    padding-right: 15px;
+    color: #000000d6;
+    max-height: 0px;
+    transition:all .7s ease;
+    margin-top: 10px;
+}
+.faq-section-wrapper .left-side-faq input:checked ~ .content-tab{
+    max-height: 300px;
+    padding: 10px;
+}
+.faq-section-wrapper .left-side-faq .label-tab{
+    padding: 7px;
+    background-color: #fc515fdb;
+    /* border-radius: 7px; */
+    cursor: pointer;
+    font-size: 13px;
+    display: block;
+    transition: all .5s ease;
+}
+.faq-section-wrapper .left-side-faq .label-tab:hover{
+    background-color: #e61021db;
+}
+.faq-section-wrapper .left-side-faq .label-tab::after{
+    content: "\276f";
+    text-align: center;
+    float: left;
+    transition: all .5s ease;
+    margin-left: 5px;
+    padding: 3px 0 0 0;
+}
+.faq-section-wrapper .left-side-faq input:checked  + .label-tab::after{
+    transform: rotate(-90deg);
+} 
+.faq-section-wrapper .left-side-faq input{
+    display: none;
+}
+

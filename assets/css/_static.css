@@ -1,0 +1,34 @@
+.static-section-wrapper{
+    height:auto;
+    margin: 90px 0px;
+}
+.static-section{
+    background-color: #e61021db;
+}
+.static-section-wrapper .static i{
+    font-size: 50px;
+    margin-top: 40px;
+}
+.static-section-wrapper .static .count{
+    /* color: rgb(101 31 36); */
+    margin: 10px 0;
+    color: #e2d3d3;
+}
+.static .count-title{
+    margin-bottom: 40px;
+}
+@media  screen and (max-width:700px) {
+    .static-section-wrapper{
+        margin: 30px 0;
+    }
+.static-section .static i{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.static .count,.count-title{
+    font-size: 12px;
+}
+}
+.section-title.static-title span::after{
+    right:29px;
+}
